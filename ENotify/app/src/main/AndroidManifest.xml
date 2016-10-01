@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amitpradhan.enotify" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register New Account" />
+        <activity
+            android:name=".RegisterActivity1"
+            android:label="@string/title_activity_register_activity1" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity2"
+            android:label="@string/title_activity_register_activity2" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity3"
+            android:label="@string/title_activity_register_activity3" >
+        </activity>
+        <activity
+            android:name=".DirectorHome"
+            android:label="@string/title_activity_director_home" >
+        </activity>
+        <activity
+            android:name=".HODHome"
+            android:label="@string/title_activity_hodhome" >
+        </activity>
+        <activity
+            android:name=".ProfessorHome"
+            android:label="@string/title_activity_professor_home" >
+        </activity>
+        <activity
+            android:name=".StudentHome"
+            android:label="@string/title_activity_student_home" >
+        </activity>
+        <activity
+            android:name=".DirectorProfile"
+            android:label="@string/title_activity_director_profile" >
+        </activity>
+        <activity
+            android:name=".HODProfile"
+            android:label="@string/title_activity_hodprofile" >
+        </activity>
+        <activity
+            android:name=".StudentProfile"
+            android:label="@string/title_activity_student_profile" >
+        </activity>
+        <activity
+            android:name=".HODPost"
+            android:label="@string/title_activity_hodpost" >
+        </activity>
+        <activity
+            android:name=".DirectorPost"
+            android:label="@string/title_activity_director_post" >
+        </activity>
+        <activity
+            android:name=".MultiSelectGallery"
+            android:label="@string/title_activity_multi_select_gallery" >
+        </activity>
+        <activity
+            android:name=".HODPost1"
+            android:label="@string/title_activity_hodpost1" >
+        </activity>
+        <activity
+            android:name=".ProfessorPost"
+            android:label="@string/title_activity_professor_post" >
+        </activity>
+        <activity
+            android:name=".Forgot"
+            android:label="@string/title_activity_forgot" >
+        </activity>
+        <activity
+            android:name=".HODReceive"
+            android:label="@string/title_activity_hodreceive" >
+        </activity>
+    </application>
+
+</manifest>

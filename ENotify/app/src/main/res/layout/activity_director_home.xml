@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.amitpradhan.enotify.DirectorHome">
+    <Button android:id="@+id/cse"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:text="COMPUTER SCIENCE ENGINEERING"
+    android:background="#ffe1ffff" >
+</Button>
+    <Button android:id="@+id/it"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="INFORMATION TECHNOLOGY"
+        android:layout_below="@+id/cse"
+        android:background="#ffe1ffff" >
+    </Button>
+    <Button android:id="@+id/ec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="ELECTRONICS AND COMMUNICATION"
+        android:layout_below="@+id/it"
+        android:background="#ffe1ffff" >
+    </Button>
+    <Button android:id="@+id/ele"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="ELECTRICAL ENGINEERING"
+        android:layout_below="@+id/ec"
+        android:background="#ffe1ffff" >
+    </Button>
+    <Button android:id="@+id/mec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="MECHANICAL ENGINEERING"
+        android:layout_below="@+id/ele"
+        android:background="#ffe1ffff" >
+    </Button>
+
+
+
+
+</RelativeLayout>
+
+
+
